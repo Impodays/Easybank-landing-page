@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.btn {
+  @apply bg-gradient-to-r from-LimeGreen to-BrightCyan text-white font-bold py-3 px-6 rounded-full;
+}
+#hero {
+  //background-image: url("../images/bg-intro-desktop.svg");
+  //background-repeat: no-repeat;
+  //background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #hero {
+    //background-image: url("../images/bg-intro-mobile.svg");
+    //background-position: top;
+    //transform: translate(50%);
+  }
+}
